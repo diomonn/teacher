@@ -86,27 +86,5 @@
     </footer>
 </body>
 <script src="./html/scripts/play.js"></script>
-<script>
-    const imgbox = document.querySelector('.BIGimg')
-    const limgbox = document.querySelector('.BIGimg img')
-    const imgs = document.querySelectorAll('.imgplog img')
-    const srcs = ["./html/images/beijing.jpg", "./html/images/ZhangJiaJie.jpg", "./html/images/Wuxi.jpg"]
-
-
-    imgs.forEach((el, i) => {
-
-        el.onclick = function() {
-
-            imgbox.style.display = 'flex'
-            limgbox.src = srcs[i]
-
-        }
-
-
-    });
-    limgbox.onclick = function() {
-        imgbox.style.display = 'none'
-    }
-</script>
 
 </html>
