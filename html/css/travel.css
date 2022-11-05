@@ -1,0 +1,32 @@
+@import url(./index.css);
+main {
+    display: flex;
+    justify-content: space-around;
+}
+
+main .left,
+main .right {
+    margin-top: .625rem;
+    width: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .left img {
+    margin: 10px;
+    width: 6.5625rem;
+    height: 6.4375rem;
+}
+
+main .right div {
+    overflow: auto;
+    font-size: .875rem;
+    text-align: center;
+    margin: .625rem;
+    width: 9.5625rem;
+    height: 6.4375rem;
+    box-shadow: 0px 0px 10px 1px var(--skyblue) inset;
+    border: 2px solid var(--skyblue)
+}

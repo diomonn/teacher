@@ -1,0 +1,52 @@
+@import url(./index.css);
+body {
+    background: #8e9eab;
+    background: linear-gradient(to right, var(--skyblue), var(--Pink));
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.box {
+    width: 18.75rem;
+    /* height: 2.75rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    width: 18.75rem;
+    /* height: 28.75rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    margin-top: .0625rem;
+    width: 9.375rem;
+    height: 12.5rem;
+}
+
+main .boxtext {
+    color: var(--black);
+    text-align: center;
+    margin-top: 2rem;
+    width: 12.5rem;
+    height: 8rem;
+}
+
+@media screen and (min-width: 375px) and (max-width:765px) {
+    .box,
+    .box1 {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,19 @@
+@import url(./index.css);
+main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BigBOX {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 17.575rem;
+}
+
+.BigBOX p {
+    text-indent: 2em;
+}

@@ -1,0 +1,62 @@
+@import url(./index.css);
+main {
+    margin-top: .325rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+main img:hover {
+    transform: rotateZ(3deg);
+}
+
+.box {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box div {
+    line-height: 1.2rem;
+    border: 1px solid black;
+    width: 12.5rem;
+    height: 6.25rem;
+}
+
+.box img {
+    width: 8.4375rem;
+    height: 9.4375rem;
+}
+
+.b {
+    flex-direction: row-reverse;
+}
+
+.l div {
+    margin-top: 3.5rem;
+    margin-left: 10px;
+}
+
+.b div {
+    margin-top: 6.25rem;
+    margin-right: .625rem;
+}
+
+.r img {
+    margin-left: 5.25rem;
+}
+
+.r div {
+    margin-top: .625rem;
+}
+
+.r {
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
