@@ -66,6 +66,16 @@ main {
     height: 100%;
 }
 
+.box2 img:hover {
+    width: 6.25rem;
+    height: 6.25rem;
+}
+
+.box1 img:hover {
+    width: 10rem;
+    height: 10rem;
+}
+
 .box4:hover {
     left: 0;
 }

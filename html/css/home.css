@@ -4,6 +4,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 80vh;
 }
 
 .BigBOX {
@@ -12,6 +13,16 @@ main {
     align-items: center;
     flex-direction: column;
     width: 17.575rem;
+}
+
+main img:hover {
+    width: 10rem;
+    z-index: 1999;
+}
+
+.BigBOX img {
+    transition: .3s linear;
+    width: 9.375rem;
 }
 
 .BigBOX p {

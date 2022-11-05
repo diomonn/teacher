@@ -7,6 +7,8 @@ main {
 }
 
 main img:hover {
+    width: 9.4375rem;
+    height: 10.4375rem;
     transform: rotateZ(3deg);
 }
 
@@ -26,6 +28,7 @@ main img:hover {
 .box img {
     width: 8.4375rem;
     height: 9.4375rem;
+    transition: all .1s linear;
 }
 
 .b {
